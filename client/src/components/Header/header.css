@@ -1,0 +1,41 @@
+.header {
+  background: #fff;
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.15);
+}
+
+.header_wrap {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_logo {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: #d23669;
+  border-radius: 50%;
+}
+
+.header_btns {
+  display: flex;
+  gap: 20px;
+}
+
+.header_auth {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header_auth_user {
+  display: flex;
+  cursor: pointer;
+}
+
+.header_auth_user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

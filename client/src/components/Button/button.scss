@@ -1,0 +1,21 @@
+.btn {
+  padding: 8px 28px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: block;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  &.solid {
+    background: #d23669;
+    color: #fff;
+    border: 1px solid transparent;
+  }
+
+  &.outline {
+    border: 1px solid #d23669;
+    color: #d23669;
+  }
+}

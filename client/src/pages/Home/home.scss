@@ -1,0 +1,10 @@
+.home {
+  margin-top: 40px;
+
+  &_box {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

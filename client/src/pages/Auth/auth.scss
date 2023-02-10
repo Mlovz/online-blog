@@ -1,0 +1,49 @@
+.auth {
+  display: flex;
+  justify-content: center;
+  &_box {
+    margin-top: 75px;
+    max-width: 396px;
+    width: 100%;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+
+    .heading {
+      margin-bottom: 30px;
+    }
+
+    &_form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    .field ~ .field {
+      margin-top: 20px;
+    }
+
+    .btn {
+      margin-top: 15px;
+    }
+
+    .error {
+      color: #d23669;
+    }
+  }
+
+  &_text {
+    margin-top: 13px;
+    display: flex;
+    gap: 5px;
+
+    > a {
+      color: #d23669;
+      border-bottom: 1px solid transparent;
+      &:hover {
+        border-bottom: 1px dashed #d23669;
+      }
+    }
+  }
+}
