@@ -2,7 +2,7 @@ import { ARTICLE_TYPES } from "../types/articleTypes";
 
 const initialState = {
   posts: [],
-  blog: null,
+  post: [],
 };
 
 const articleReducer = (state = initialState, action) => {
@@ -11,6 +11,18 @@ const articleReducer = (state = initialState, action) => {
       return {
         ...state,
         posts: action.payload,
+      };
+
+    case ARTICLE_TYPES.GET_ARTICLE:
+      return {
+        ...state,
+        post: [action.payload],
+      };
+
+    case ARTICLE_TYPES.UPDATE_ARTICLE:
+      return {
+        ...state,
+        post: [action.payload],
       };
 
     default:

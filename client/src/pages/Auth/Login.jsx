@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./auth.scss";
 import { Link, Navigate } from "react-router-dom";
 import Heading from "../../components/Heading/Heading";

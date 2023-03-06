@@ -26,6 +26,7 @@ const Home = () => {
             posts.map((item) => (
               <PostCard
                 key={item.id}
+                id={item._id}
                 title={item.title}
                 createdAt={item.createdAt}
                 content={item.content}
